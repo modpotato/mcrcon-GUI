@@ -39,7 +39,7 @@ print(Fore.RED + 'say 123123' + Fore.MAGENTA + ' is not allowed')
 input(Fore.MAGENTA + "Press " + Fore.RED + "Enter " + Fore.MAGENTA + "to continue.")
 clear()
 
-hostname = input(Fore.RED + 'Hostname '+ Fore.MAGENTA + '(aka 1.1.1.1, mc.hypixel.net or *:25565)' + Style.RESET_ALL +'\n')
+hostname = input(Fore.RED + 'Hostname '+ Fore.MAGENTA + '(such as 1.1.1.1)' + Style.RESET_ALL +'\n')
 password = input(Fore.RED + 'Password ' + Style.RESET_ALL +'\n')
 
 clear()
